@@ -11,20 +11,27 @@ This is a laravel livewire contact form example with datatable listing,
 	<li>Doesn't .env file into root folder then please copy from .env.example to .env <code>cp .env.example .env</code></li>
 </ul>
 
-### Setup Database into Enviroment file
+### Setup database into environment file
 <ul>
 	<li><code>DB_DATABASE=database</code></li>
 	<li><code>DB_USERNAME=username</code></li>
 	<li><code>DB_PASSWORD=password</code></li>
 </ul>
 
-### Create Table Migration Pattern
+### Create table migration pattern
 
 <ul>
 	<li><code>php artisan migrate</code></li>
+    
 </ul>
 
-### Loging With Super Administrator Of System
+### Run server
+
+<ul>
+	<li><code>php artisan serve</code></li>
+</ul>
+
+### Visit Page
 
 <ul>
 	<li>Visit URL For Contact Form: <code>/contact-us</code></li>
